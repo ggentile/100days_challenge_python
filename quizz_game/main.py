@@ -8,8 +8,8 @@ question_bank = []
 def main():
 
     for lines in question_data:
-        question_text = lines['text']
-        question_answer = lines['answer']
+        question_text = lines['question']
+        question_answer = lines['correct_answer']
         new_question = Question(question_text, question_answer)
         question_bank.append(new_question)
     
