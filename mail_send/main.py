@@ -27,5 +27,5 @@ for person in people:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
-                        to_addrs="y.mrtest@yahoo.com",
-                        msg=f"Subject:Happy Birthday!\n\n{message}")
+                            to_addrs="y.mrtest@yahoo.com",
+                            msg=f"Subject:Happy Birthday!\n\n{message}")
