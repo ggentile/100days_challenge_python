@@ -8,8 +8,8 @@ import pandas
 anniversariants = pandas.read_csv("birthdays.csv")
 people = anniversariants.to_dict(orient="records")
 
-my_email = "mrgiannitest@gmail.com"
-password = "u1k3%(3I!1H"
+my_email = ""
+password = ""
 
 now = dt.datetime.now()
 today_tuple = (now.month, now.day)
